@@ -1,4 +1,4 @@
-(load "../chapter-05/wizard-adventure-game.lisp")
+(load "../05/wizard-adventure-game.lisp")
 
 (defun game-repl ()
     (let ((cmd (game-read)))
