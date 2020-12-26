@@ -1,0 +1,11 @@
+(defun say-hello ()
+    (print "please type your name: ")
+    (let ((name (read)))
+        (print "Nice to meet you, ")
+        (print name)))
+
+(defun say-hello-2 ()
+    (princ "Please type your name: ")
+    (let ((name (read-line)))
+        (princ "Nice to meet you, ")
+        (princ name)))
